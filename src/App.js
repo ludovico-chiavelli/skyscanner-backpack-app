@@ -57,6 +57,7 @@ const App = () => {
             selectionConfiguration={selectionConfiguration}
           />
       </main>
+      <BpkButton onClick={() => alert('It works!')}>Continue</BpkButton>
     </div>
   )
 };
