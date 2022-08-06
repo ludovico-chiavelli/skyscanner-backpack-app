@@ -27,6 +27,8 @@
 
   &__main {
     padding: $bpk-spacing-xxl;
+    display: flex;
+    justify-content: center;
 
     @include container;
 
